@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d0f17" />
+    <meta
+      name="description"
+      content="Flairix: diseño gráfico profesional corporativo y urbano. Un toque de estilo creativo en cada pieza visual."
+    />
+    <title>Flairix | Un toque de estilo creativo</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="top-bar">
+        <div class="brand">
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipNxN48-O5qYKGcuIb_IAYnOQd3ISed_JFMWaosH=s1360-w1360-h1020-rw"
+            alt="Logo de Flairix"
+            class="brand__logo"
+          />
+          <div>
+            <p class="brand__name">Flairix</p>
+            <p class="brand__tagline">Un toque de estilo creativo</p>
+          </div>
+        </div>
+        <button class="cta" id="open-install">Instalar</button>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div>
+            <h1>Diseño gráfico profesional sin límites</h1>
+            <p>
+              Creamos identidad corporativa y estilo urbano con impacto. Servicios visuales para
+              redes sociales, impresión, branding y logotipos inolvidables.
+            </p>
+          </div>
+          <div class="hero__cards">
+            <article class="card">
+              <h2>Servicios visuales</h2>
+              <p>Social media, campañas, motion y piezas digitales listas para publicar.</p>
+            </article>
+            <article class="card">
+              <h2>Impresión & editorial</h2>
+              <p>Material corporativo, packaging, catálogos y formatos XXL con calidad premium.</p>
+            </article>
+            <article class="card">
+              <h2>Identidad & logos</h2>
+              <p>Marcas coherentes, frescas y memorables para cualquier industria.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="services" id="servicios">
+          <h3>Servicios destacados</h3>
+          <div class="service-list">
+            <div class="service">
+              <span>Branding corporativo</span>
+              <small>Estrategia visual & manual de marca</small>
+            </div>
+            <div class="service">
+              <span>Diseño urbano</span>
+              <small>Murales, campañas callejeras y arte aplicado</small>
+            </div>
+            <div class="service">
+              <span>Contenido para redes</span>
+              <small>Calendarios creativos, reels y anuncios</small>
+            </div>
+            <div class="service">
+              <span>Impresión creativa</span>
+              <small>Cartelería, flyers, lona y papelería</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel">
+          <div class="panel__header">
+            <div>
+              <h3>Panel de control</h3>
+              <p>Administra solicitudes y clientes desde un flujo simple e interactivo.</p>
+            </div>
+            <button class="ghost">Ver solicitudes</button>
+          </div>
+          <div class="panel__content">
+            <article>
+              <p class="label">Solicitudes nuevas</p>
+              <h4>12</h4>
+              <p class="muted">Pendientes de respuesta personalizada.</p>
+            </article>
+            <article>
+              <p class="label">Clientes activos</p>
+              <h4>38</h4>
+              <p class="muted">Marcas con proyectos en curso.</p>
+            </article>
+            <article>
+              <p class="label">Entregas hoy</p>
+              <h4>5</h4>
+              <p class="muted">Archivos listos para aprobar.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact" id="contacto">
+          <h3>Cuéntanos tu idea</h3>
+          <form class="contact__form">
+            <input type="text" placeholder="Nombre o empresa" required />
+            <input type="email" placeholder="Correo de contacto" required />
+            <select required>
+              <option value="">Tipo de servicio</option>
+              <option>Branding & logos</option>
+              <option>Contenido redes sociales</option>
+              <option>Impresión creativa</option>
+              <option>Diseño urbano</option>
+            </select>
+            <textarea rows="3" placeholder="Describe tu proyecto"></textarea>
+            <button type="submit" class="cta">Enviar solicitud</button>
+          </form>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <button class="nav-item active" data-section="inicio">Inicio</button>
+        <button class="nav-item" data-section="servicios">Servicios</button>
+        <button class="nav-item" data-section="panel">Panel</button>
+        <button class="nav-item" data-section="contacto">Contacto</button>
+      </nav>
+    </div>
+
+    <div class="install-banner" id="install-banner" aria-hidden="true">
+      <div>
+        <p class="install-title">Instala Flairix y lleva tu diseño contigo.</p>
+        <p class="install-subtitle">Acceso rápido, experiencia compacta y 100% móvil.</p>
+      </div>
+      <button class="cta" id="install-now">Instalar</button>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
