@@ -1,0 +1,17 @@
+{
+  "name": "Flairix",
+  "short_name": "Flairix",
+  "description": "Un toque de estilo creativo para branding, redes e impresión.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0d0f17",
+  "theme_color": "#0d0f17",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/p/AF1QipNxN48-O5qYKGcuIb_IAYnOQd3ISed_JFMWaosH=s1360-w1360-h1020-rw",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
